@@ -1,0 +1,23 @@
+body {
+    background-color: #9070ee;
+}
+.encabezado {
+    background-color: blueviolet;
+     text-align: center;
+    font-family: 'Lucida Sans';
+    
+}
+.encabezado h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Lucida Sans';
+}
+.encabezado h2{
+    font-size: 50px;
+
+}
+.encabezado p{
+    font-size: 18px;
+    text-align: right;
+    font-family: 'Lucida console';
+}
