@@ -2,22 +2,142 @@ body {
     background-color: #9070ee;
 }
 .encabezado {
-    background-color: blueviolet;
+    background-color: hsla(271, 86%, 37%, 0.459);
      text-align: center;
+     margin: auto;
     font-family: 'Lucida Sans';
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    margin-bottom: 8vh;
+    margin-top: 8vh;
+    padding: 1.5% 1.5% 1.5% 1.5%;
     
 }
 .encabezado h1{
-    font-size: 100px;
+    font-size: 5em;
     text-align: center;
     font-family: 'Lucida Sans';
+    margin-bottom: 0.5em;
 }
 .encabezado h2{
-    font-size: 50px;
+    font-size: 2em;
+    margin-bottom: 0.1em;
 
 }
 .encabezado p{
-    font-size: 18px;
-    text-align: right;
+    font-size: 1em;
+    gap: 1em;
+    align-self: flex-end;
     font-family: 'Lucida console';
+}
+/* aca termuina la config del encabezado */
+/* aca termuina la config del encabezado */
+/* aca termuina la config del encabezado */
+/* aca termuina la config del encabezado */
+.contgrande {
+    width: 95vw;
+    border: 2px, solid, black;
+    margin: 1.5% 1.5% 1.5% 1.5%;
+    padding-top: 1.8%;
+    padding-bottom: 1.8%;
+}
+.gatocont {
+    background-color: hsla(244, 36%, 50%, 0.349);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85vw;
+    border: 1px, solid, black;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    margin: auto;
+    margin-bottom: 2%;
+
+
+}
+/* Aca termina la caja de los gatos (general)*/
+/* Aca termina la caja de los gatos (general)*/
+/* Aca termina la caja de los gatos (general)*/
+/* Aca termina la caja de los gatos (general)*/
+.nombre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana;
+
+
+}
+.nombre h2{
+    font-size: 3em;
+    margin-bottom: 0.5em;
+ 
+}
+.nombre h3{
+    font-style: italic;
+     margin-bottom: 0.3em;
+}
+
+.info{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 1em;
+    font-size: 2em;
+    font-family:  'Times New Roman';
+    gap: 2em;
+
+}
+
+.info p{
+align-content: center;
+text-align: justify;
+}
+
+/*aca pongo nuevamente el formato de lista para OL porque el reset te lo quita, ayudado con gpt */
+ol {
+  list-style-type: decimal;
+  margin-left: 2em;
+  padding-left: 1em;
+}
+ul {
+    list-style-type: circle;
+     margin-left: 2em;
+     padding-left: 1em;
+}
+/*aca voy a poner el estilo de los benef-not*/
+
+.banef-not {
+    background-color: hsla(244, 36%, 50%, 0.349);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 85vw;
+    border: 1px, solid, black;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    margin: auto;
+    margin-bottom: 2%;
+    font-family: 'Times New Roman';
+    font-size: 1.2em;
+}
+.banef-not h2{
+    font-size: 2em;
+    margin-bottom: 0.7em;
+}
+.Beneficios{
+    margin-bottom: 3%;
+}
+.not{
+    margin-bottom: 0.7em;
+}
+.form{
+     background-color: hsla(244, 36%, 50%, 0.349);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85vw;
+    border: 1px, solid, black;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    margin: auto;
+    margin-bottom: 2%;
 }
