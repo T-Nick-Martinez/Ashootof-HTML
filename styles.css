@@ -49,7 +49,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 85vw;
-    border: 1px, solid, black;
+    border: 1px solid black;
     padding: 1.5% 1.5% 1.5% 1.5%;
     margin: auto;
     margin-bottom: 2%;
@@ -66,8 +66,6 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Verdana;
-
-
 }
 .nombre h2{
     font-size: 3em;
@@ -113,7 +111,7 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     width: 85vw;
-    border: 1px, solid, black;
+    border: 1px solid black;
     padding: 1.5% 1.5% 1.5% 1.5%;
     margin: auto;
     margin-bottom: 2%;
@@ -123,6 +121,7 @@ ul {
 .banef-not h2{
     font-size: 2em;
     margin-bottom: 0.7em;
+    font-family: Verdana;
 }
 .Beneficios{
     margin-bottom: 3%;
@@ -130,14 +129,59 @@ ul {
 .not{
     margin-bottom: 0.7em;
 }
-.form{
-     background-color: hsla(244, 36%, 50%, 0.349);
+.form {
+    background-color: hsla(244, 36%, 50%, 0.349);
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    border: 1px solid black;
+    padding: 1.5%;
+    margin: auto auto 2% auto;
+    gap: 1.2em;
+    align-items: center;
+}
+
+.form h2 {
+    font-size: 2em;
+    margin-bottom: 0.7em;
+    text-align: center;
+     font-family: Verdana;
+}
+.form legend{
+    margin-bottom: 0.6em;
+}
+#enviar{
+    width: fit-content;
+}
+/*faltaria separar mas (lateralmente) lo elementos del form)*/
+/* aca empiezo con "a proposito de la comunidad"*/
+.comunidad {
+        background-color: hsla(244, 36%, 50%, 0.349);
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 85vw;
-    border: 1px, solid, black;
+    border: 1px solid black;
     padding: 1.5% 1.5% 1.5% 1.5%;
     margin: auto;
     margin-bottom: 2%;
+    font-family: 'Times New Roman';
 }
+.comunidad h2{
+    font-size: 2em;
+    font-family: Verdana;
+    margin-bottom: 0.7em;
+    text-align: center;
+}
+.comunidad p{
+    text-align: justify;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+.comunidad legend{
+    text-align: justify;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+/* bueno, me acabo de dar cuenta que puse estilos iguales para elementos iguales (px h2) y que podia darle la misma clase y ahorrarme unas cuantas lineas de código, pero por hoy va a quedar así*/
